@@ -1,0 +1,73 @@
+
+
+#image {
+    margin-top:1rem;
+      width: 100%;
+      height: 400px;
+      background-color: #999999 #2222 ;
+      background-image: url("../../../public/images/itachicover.jpg");
+      background-position:center center;
+      background-size:contain;
+      background-repeat:repeat;
+     /* box-shadow: inset(#222); */
+  
+    }
+  
+    header button{
+    margin-left: 6em;
+  
+    }
+
+    #image{
+      text-align: center;
+      
+    }
+
+    .imagg{
+      position:absolute;
+      bottom:auto;
+      top:90%;
+      right:40%;
+      width:200px;
+      height:200px;
+       background-color: orange;
+       border-radius: 50%;
+       padding:2px;  
+  }
+/* ///////////////////////////////////// */
+@media  screen and (min-width: 768px) and (max-width: 1023px){
+ 
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+/* -------Mobile------------ */
+@media screen and (max-width:770px) {
+
+    .about-box{
+        width:100% !important;
+    text-align: center;
+    }
+    #head{
+        background-image:url("../../../public/images/kyopee.jpg");
+        border-radius: 5%;
+        background-color: #fff;
+        padding:1%;
+        
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about{
+        font-weight:400;
+        font-size:1.3em;
+    }
+}

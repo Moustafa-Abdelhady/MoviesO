@@ -1,0 +1,96 @@
+
+.vote{
+  position: absolute;
+  top:10%;
+font-size: larger;
+font-weight: 700;
+ text-align: center;
+ background-color: rgb(21, 88, 57);
+ padding-top: 2%;
+ padding-left: 2%;
+ padding-left: 3%;
+ padding-right: 3%;
+ z-index: 1000;
+}
+
+.starIcon{
+  z-index: 1000;
+  top:0;
+  right:85%;
+  left:0;
+  bottom:0;
+}
+
+.dd{
+  
+  height:550px;
+  width:23%;
+}
+
+.imag{
+  /* background-image:url('`https://image.tmdb.org/t/p/w500/${items.poster_path}`') */
+  z-index: -1;
+  opacity:.8;
+  /* position: absolute; */
+}
+
+.imag:hover{
+  transform: scale(1.1) !important;
+  transition: 1s;
+ 
+}
+
+
+/* #card-box{ */
+    /* width:20em ; */
+    /* height:20em ; */
+    /* background-image:url('../../logo.svg') ; */
+    /* opacity:.9; */
+    /* color:#EEE; */
+   /* z-index: -1; */
+    /* display:flex; */
+ /* } */
+
+ /* #card-box:hover{
+
+ }
+  */
+ /* #card-bag{ */
+     /* height:30%; */
+     /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* margin:10% auto; */
+ /* } */
+
+ /* .cc:hover{ */
+   
+        /* background-color: aqua !important; */
+     
+      /* transform:scale(1.1,1.1) !important; 
+      transition-duration: .5s !important; */
+      /* width:300px; */
+      /* transform: translate(2,1); */
+      /* /* width:40%; */
+      /* height:20.5em; */
+ /* } */
+
+
+/* ///////////////////////////////////////// */
+/* دي بتعمل زي روتيت للحاجة وتخليها تلف حوالين نفسها */
+
+ /* @media (prefers-reduced-motion: no-preference) {
+  #card-box:hover {
+    animation: card-box-spin infinite 20s linear;
+  }
+}
+
+ @keyframes card-box-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+ 

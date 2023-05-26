@@ -1,0 +1,15 @@
+
+.links{
+    color:#eee;
+    margin-left:5px;
+    border:none;
+    padding:5px;
+    border-radius: 30%;
+    text-decoration: none !important;
+    outline:1 #FFF;
+    /* background-color: #c08370 !important; */
+}
+
+.links:hover{
+    color:#e25c5c;
+}
